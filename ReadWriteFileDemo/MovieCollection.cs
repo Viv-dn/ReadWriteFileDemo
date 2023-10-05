@@ -74,7 +74,67 @@ public class MovieCollection
                     Genres.SciFi,
                     Genres.Comedy
                 }
+            },
+            new ()
+            {
+                Title = "Apocalypse",
+                Description = "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
+                Length = 2.45,
+                Genres = new List<Genres>()
+                {
+                    Genres.Drama
+                }
+            },
+            new ()
+            {
+                Title = "The 12 monkeys",
+                Description = "In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.",
+                Length = 2.15,
+                Genres = new List<Genres>()
+                {
+                    Genres.SciFi,
+                    Genres.Comedy
+                }
+            },
+            new ()
+            {
+                Title = "Pi",
+                Description = "A paranoid mathematician searches for a key number that will unlock the universal patterns found in nature.",
+                Length = 1.4,
+                Genres = new List<Genres>()
+                {
+                    Genres.Drama,
+                    Genres.Horror
+                }
+            },
+            new ()
+            {
+                Title = "Being John Malkovich",
+                Description = "A puppeteer discovers a portal that leads literally into the head of movie star John Malkovich.",
+                Length = 1.83,
+                Genres = new List<Genres>()
+                {
+                    Genres.Drama,
+                    Genres.SciFi,
+                    Genres.Fantasy
+                }
+            },
+            new ()
+            {
+                Title = "Children of Men",
+                Description = "In 2027, in a chaotic world in which women have somehow become infertile, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary at sea.",
+                Length = 1.86,
+                Genres = new List<Genres>()
+                {
+                    Genres.Action,
+                    Genres.SciFi
+                }
+            },
+            new ()
+            {
+
             }
+
         };
     }
 }
